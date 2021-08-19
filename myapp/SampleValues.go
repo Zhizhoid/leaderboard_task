@@ -12,7 +12,7 @@ import (
 
 const (
 	DBUser     		= "root"
-	DBPassword 		= "mypassword1029"
+	DBPassword 		= ""
 	DBHost     		= "127.0.0.1"
 	DBPort     		= "3306"
 	DBName     		= "leaderboard"
