@@ -1,7 +1,7 @@
 # leaderboard_task
 1) Install Go & MySQL
 2) Execute CreateDB.sql file to create database
-3) Change **DBUser, DBPassword, DBHost and DBPort** constants in **main.go & SampleValues.go** if needed so you can connect to your MySQL server
+3) Change **DBUser, DBPassword, DBHost and DBPort** constants in **main.go & SampleValues.go** so you can connect to your MySQL server
 4) Run SampleValues.go to generate sample values (you can change ValueAmount constant in order to configure sample value amount)
 5) Run main.go file to start server
 # Authentication
