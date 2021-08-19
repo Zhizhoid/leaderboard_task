@@ -3,16 +3,13 @@ package main
 import (
 	"fmt"
 	"net/http"
-	//~ "io/ioutil"
-    "log"
-    "encoding/json"
-    "time"
-    "strings"
-    "strconv"
+	"log"
+	"encoding/json"
+	"time"
+	"strings"
+	"strconv"
 	
 	"github.com/labstack/echo/v4"
-	//~ "github.com/labstack/echo/v4/middleware"
-	//~ jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/now"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -20,7 +17,7 @@ import (
 
 const (
 	DBUser     		= "root"
-	DBPassword 		= "mypassword1029"
+	DBPassword 		= ""
 	DBHost     		= "127.0.0.1"
 	DBPort     		= "3306"
 	DBName     		= "leaderboard"
